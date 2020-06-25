@@ -4,7 +4,7 @@ from random import randint
 
 
 class FileUpload:
-    def __init__(self, file, exts=['png', 'jpg', 'jpeg'], size=1024 * 1024, is_randomname=False):
+    def __init__(self, file, exts=['png', 'jpg', 'jpeg','PNG','JPG','JPEG'], size=1024 * 1024, is_randomname=False):
         """
         :param file: 文件上传对象:
         :param exts: 文件类型：
